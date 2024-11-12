@@ -1,18 +1,26 @@
 .header {
-    background-image: url('https://plodovyisad.ru/assets/images/products/706/gala-red.jpg');
+    background-image: url('https://cdn.intelligencebank.com/au/share/qyp3/GXO2g/ajwZ/original/WOODGROVE+FRESH+FOOD+CAT+IMAGE');
     max-width: 1600px;
-    margin: 0 auto 0 auto ;
+    margin: 0px auto 0 auto ;
     border-radius: 30px;
     height: 100px;
+
   }
 .sign{
     font-family: 'Dancing Script', cursive;
     color:rgb(255, 255, 255);
     font-weight: 1000;
     font-size: 50px;
-    margin: 10px;
 }
 
 .sign_word{
     margin:20px;
 }
+
+
+@media (max-width:666px){
+    .sign_word{
+        font-size: 30px;
+        margin: 20px;
+    }
+  }

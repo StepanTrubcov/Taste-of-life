@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Taste-of-life/static/css/main.735544f0.css",
-    "main.js": "/Taste-of-life/static/js/main.f53dd44b.js",
+    "main.css": "/Taste-of-life/static/css/main.61ee943e.css",
+    "main.js": "/Taste-of-life/static/js/main.b03af1e0.js",
     "static/js/453.ed3810f9.chunk.js": "/Taste-of-life/static/js/453.ed3810f9.chunk.js",
     "index.html": "/Taste-of-life/index.html",
-    "main.735544f0.css.map": "/Taste-of-life/static/css/main.735544f0.css.map",
-    "main.f53dd44b.js.map": "/Taste-of-life/static/js/main.f53dd44b.js.map",
+    "main.61ee943e.css.map": "/Taste-of-life/static/css/main.61ee943e.css.map",
+    "main.b03af1e0.js.map": "/Taste-of-life/static/js/main.b03af1e0.js.map",
     "453.ed3810f9.chunk.js.map": "/Taste-of-life/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.735544f0.css",
-    "static/js/main.f53dd44b.js"
+    "static/css/main.61ee943e.css",
+    "static/js/main.b03af1e0.js"
   ]
 }

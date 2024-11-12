@@ -43,6 +43,11 @@
     margin: 18px;
 }
 
+.NavLink{
+color: black;
+text-decoration: none;
+}
+
 .number{
     font-size: 35px;
     font-weight: 600;

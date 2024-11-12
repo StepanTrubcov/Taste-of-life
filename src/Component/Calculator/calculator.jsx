@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import './CalorieCalculator.css';
+import Navbar from '../Navbar/NavbarConteiner'
 
-const CalorieCalculator = () => {
+const CalorieCalculator = (props) => {
     const [age, setAge] = useState('');
     const [weight, setWeight] = useState('');
     const [height, setHeight] = useState('');
@@ -18,24 +19,27 @@ const CalorieCalculator = () => {
         }
     };
 
-    return (
+    return (<div>
+        <div className='calculator' >Калькулятор калорий</div>
+        <Navbar/>
+    <div className='div'>
         <div className="calorie-calculator">
             <h1>Калькулятор калорий</h1>
             <div>
                 <label>Возраст (лет):</label>
-                <input type="number" value={age} onChange={(e) => setAge(e.target.value)} />
+                <input className='input' type="number" value={age} onChange={(e) => setAge(e.target.value)} />
             </div>
             <div>
                 <label>Вес (кг):</label>
-                <input type="number" value={weight} onChange={(e) => setWeight(e.target.value)} />
+                <input className='input' type="number" value={weight} onChange={(e) => setWeight(e.target.value)} />
             </div>
             <div>
                 <label>Рост (см):</label>
-                <input type="number" value={height} onChange={(e) => setHeight(e.target.value)} />
+                <input className='input' type="number" value={height} onChange={(e) => setHeight(e.target.value)} />
             </div>
             <div>
                 <label>Уровень активности:</label>
-                <select value={activityLevel} onChange={(e) => setActivityLevel(e.target.value)}>
+                <select className='input' value={activityLevel} onChange={(e) => setActivityLevel(e.target.value)}>
                     <option value="1.2">Сидячий образ жизни</option>
                     <option value="1.375">Небольшая активность</option>
                     <option value="1.55">Умеренная активность</option>
@@ -45,6 +49,11 @@ const CalorieCalculator = () => {
             </div>
             <button onClick={handleCalculate}>Рассчитать</button>
             {calories && <h2>Ваша суточная норма калорий: {calories} ккал</h2>}
+            </div>
+            <div className='information' >
+            {props.calculator.text}
+            </div>
+        </div>
         </div>
     );
 };

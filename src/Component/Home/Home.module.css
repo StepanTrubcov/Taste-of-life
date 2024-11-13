@@ -18,7 +18,7 @@
 
 .blok{
     border: 3px solid black;
-    width: 600px;
+    max-width: 600px;
     height: 300px;
     border-radius: 30px;
     margin: 10px;

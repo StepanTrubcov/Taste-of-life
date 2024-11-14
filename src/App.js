@@ -7,6 +7,7 @@ import Header from './Component/Header/Header';
 import Home from './Component/Home/HomeConteiner';
 import Information from './Component/Information/information';
 import CalorieCalculator from './Component/Calculator/CalculatorConteiner'
+import Video from './Component/Video/VideoConteiner';
 
   const App = (props) => {  
     return (
@@ -17,6 +18,7 @@ import CalorieCalculator from './Component/Calculator/CalculatorConteiner'
           <Routes>
           <Route path='/Taste-of-life' element={ <Home/>} />
           <Route path='/calculator/' element={<CalorieCalculator/>} />
+          <Route path='/video/' element={<Video/>} />
           </Routes>
         </div>
         <Information/>

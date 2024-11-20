@@ -5,7 +5,8 @@ const initialState = [
         id:1,
         name: 'Рецепты',
         img:'https://img.freepik.com/free-vector/tiny-female-chef-cooking-vegan-meal-using-recipe-kitchen-cook-making-dish-from-restaurant-menu-flat-vector-illustration-healthy-food-diet-culinary-nutrition-concept-website-design_74855-22063.jpg?t=st=1731137772~exp=1731141372~hmac=942dffd4723d08477c97661baae4f4a5edaa6270132e954116e3f7804cd3bd7a&w=1060',
-        text:'Откройте для себя разнообразие вкусных и полезных рецептов, которые подходят для любого повода! Найдите вдохновение для завтраков, обедов, ужинов и десертов.'
+        text:'Откройте для себя разнообразие вкусных и полезных рецептов, которые подходят для любого повода! Найдите вдохновение для завтраков, обедов, ужинов и десертов.',
+        to:'/recipes',
     },
     {
         id:2,

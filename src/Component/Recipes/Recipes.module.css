@@ -1,0 +1,160 @@
+.img{
+    width: 170px;
+}
+
+.text{
+    margin: 10px;
+    font-weight: 700;
+}
+
+.name{
+    margin: 10px;
+    display: flex;
+    justify-content:baseline;
+    font-weight: 600;
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.home{
+    border: 4px solid black;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin: 20px;
+}
+
+.NavLink{
+    color: black;
+    text-decoration: none;
+}
+
+.blok{
+    border: 3px solid black;
+    max-width: 600px;
+    height: 300px;
+    border-radius: 30px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.blok:hover{
+    box-shadow: 15px 10px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.recipes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.information{
+    display: flex;
+}
+
+@media (max-width:2000px){
+    .name{
+        font-size: 35px;
+    }
+    .text{
+        font-size: 20px;
+    }
+    .blok{
+        max-width: 800px;
+        height: 300px;
+        border-radius: 30px;
+        margin: 10px;
+    }
+  }
+
+@media (max-width:1250px){
+    .img{
+        width:120px;
+    }
+    .name{
+        font-size: 20px;
+    }
+    .text{
+        font-size: 15px;
+    }
+    .blok{
+        max-width: 500px;
+        height: 230px;
+        border-radius: 30px;
+        margin: 10px;
+    }
+  }
+
+
+  @media (max-width:1250px){
+    .img{
+        width:100px;
+    }
+    .name{
+        font-size: 20px;
+    }
+    .text{
+        font-size: 10px;
+    }
+    .blok{
+        max-width: 400px;
+        height: 200px;
+        border-radius: 30px;
+        margin: 10px;
+    }
+  }
+
+  
+  @media (max-width:905px){
+    .img{
+        width:150px;
+    }
+    .name{
+        font-size: 28px;
+    }
+    .text{
+        font-size: 18px;
+    }
+    .blok{
+        max-width: 600px;
+        height: 280px;
+        border-radius: 30px;
+        margin: 10px;
+    }
+  }
+
+@media (max-width:625px){
+    .blok{
+        height: 260px;
+    }
+    .text{
+        font-size: 12px;
+    }
+  }
+
+  @media (max-width:567px){
+    .name{
+        font-size: 25px;
+    }
+  }
+
+  @media (max-width:467px){
+    .img{
+        width:120px;
+    }
+    .name{
+        font-size: 20px;
+    }
+    .text{
+        font-size: 10px;
+    }
+    .blok{
+        height: 230px;
+        border-radius: 30px;
+        margin: 10px;
+    }
+  }

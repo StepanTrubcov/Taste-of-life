@@ -9,6 +9,7 @@ import Information from './Component/Information/information';
 import CalorieCalculator from './Component/Calculator/CalculatorConteiner'
 import Video from './Component/Video/VideoConteiner';
 import Recipes from './Component/Recipes/RecipesConteiner'
+import Breakfast from './Component/Breakfast/BreakfastConteiner';
 
   const App = (props) => {  
     return (
@@ -21,6 +22,7 @@ import Recipes from './Component/Recipes/RecipesConteiner'
           <Route path='/calculator/' element={<CalorieCalculator/>} />
           <Route path='/video/' element={<Video/>} />
           <Route path='/recipes/' element={<Recipes/>} />
+          <Route path='/breakfast/' element={<Breakfast/>} />
           </Routes>
         </div>
         <Information/>

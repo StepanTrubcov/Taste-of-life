@@ -7,8 +7,8 @@ const Header = (props) => {
     <div className={c.header} >
         <div class={c.sign}>
             <span class={c.sign_word} >Вкус Жизни</span>
-            {/* <span class={c.sign_word}>Питайтесь правильно, живите лучше!</span> */}
         </div>
+        <div class={c.sign_text}><span >Питайтесь правильно, живите лучше!</span></div>
     </div>
     </div>
 }

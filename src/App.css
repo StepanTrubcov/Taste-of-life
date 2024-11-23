@@ -1,11 +1,11 @@
 .app-wrapper{
     border-radius: 30px;
     margin: 20px;
-    background-color: #b4dc44;
+    background-color:rgb(244, 244, 244);
 }
 
 @media (max-width:666px){
     .app-wrapper{
-        margin: 0px;
+        margin: 10px;
     }
   }

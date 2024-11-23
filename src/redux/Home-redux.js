@@ -28,12 +28,12 @@ const initialState = [
         text:'Используйте этот калькулятор как часть вашего здорового образа жизни!',
         to:'/calculator'
     },
-    {
-        id:5,
-        name: 'Контакты',
-        img:'https://img.freepik.com/premium-vector/customer-support-services-woman-with-headphones-microphone-sits-laptop_313437-558.jpg?w=1380',
-        text:' Если у вас есть вопросы, предложения или вы хотите поделиться своими впечатлениями о нашем сайте, не стесняйтесь обращаться к нам.'
-    }
+    // {
+    //     id:5,
+    //     name: 'Контакты',
+    //     img:'https://img.freepik.com/premium-vector/customer-support-services-woman-with-headphones-microphone-sits-laptop_313437-558.jpg?w=1380',
+    //     text:' Если у вас есть вопросы, предложения или вы хотите поделиться своими впечатлениями о нашем сайте, не стесняйтесь обращаться к нам.'
+    // }
 ]
 
 const HomeReducer = (state = initialState, action) => {

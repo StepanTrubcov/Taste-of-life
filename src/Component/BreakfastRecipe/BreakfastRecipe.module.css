@@ -1,0 +1,29 @@
+
+.name{
+    font-weight: 600;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+.steps{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imgDiv{
+display: flex;
+justify-content: center;
+margin: 20px;
+}
+
+.img{
+    border-radius: 30px;
+}
+
+@media (max-width:700px){
+    .img{
+        width: 300px;
+    }
+  }

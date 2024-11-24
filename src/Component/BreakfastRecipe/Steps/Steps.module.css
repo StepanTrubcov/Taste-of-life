@@ -1,0 +1,19 @@
+.blok{
+    max-width: 300px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Dancing Script', cursive;
+    margin: 20px;
+}
+
+.img{
+    border-radius: 20px;
+    width: 300px;
+}
+
+.number{
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Dancing Script', cursive;
+    margin: 10px;
+}

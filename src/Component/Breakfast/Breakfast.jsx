@@ -10,7 +10,6 @@ const Breakfast = (props) => {
     const [rr0, rrf0] = useState(0)
 
     const functio = (props) => {
-        console.log(props)
             rrf(true) 
             rrf0(props)
 }

@@ -12,10 +12,18 @@
     justify-content: center;
 }
 
+.ingridients{
+    margin: 10px;
+    width: 300px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
 .imgDiv{
+    flex-wrap: wrap;
 display: flex;
 justify-content: center;
-margin: 20px;
+margin: 20px 100px;
 }
 
 .img{

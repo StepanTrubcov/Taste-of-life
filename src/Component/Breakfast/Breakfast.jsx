@@ -7,15 +7,15 @@ import BreakfastRecipe from "../BreakfastRecipe/BreakfastRecipe";
 
 const Breakfast = (props) => {
     const [rr, rrf] = useState(false)
-    const [rr0, rrf0] = useState(0)
+    const [number, setNumber] = useState(0)
 
     const functio = (props) => {
             rrf(true) 
-            rrf0(props)
+            setNumber(props)
 }
 
     if (rr == true) {
-        return <div> <BreakfastRecipe name={props.breakfast[rr0].name} img={props.breakfast[rr0].img} inf={props.breakfast[rr0].inf} /></div>
+        return <div> <BreakfastRecipe ingridients={props.breakfast[number].ingridients} name={props.breakfast[number].name} img={props.breakfast[number].img} inf={props.breakfast[number].inf} /></div>
     }
 
     return <div className={c.home}>

@@ -1,0 +1,31 @@
+.dinner{
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin: 20px;
+}
+
+.number{
+    display: flex;
+    justify-content:end;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+   justify-content: center;
+}
+
+.blocks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+}

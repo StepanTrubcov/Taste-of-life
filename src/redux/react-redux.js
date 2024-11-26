@@ -5,6 +5,7 @@ import NavbarReducer from './Navbar-redux'
 import VideoReducer from './Video-redux'
 import RecipesReducer from './recipes-redux'
 import BreakfastReducer from './Breakfast-redux'
+import DinnerReducer from "./Dinner-redux";
 
 const reducers = combineReducers({
 home:HomeReducer,
@@ -13,6 +14,7 @@ navbar:NavbarReducer,
 video:VideoReducer,
 recipes:RecipesReducer,
 breakfast:BreakfastReducer,
+dinner:DinnerReducer,
 })
 
 const store = createStore(reducers);

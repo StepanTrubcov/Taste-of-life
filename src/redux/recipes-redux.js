@@ -4,14 +4,13 @@ const initialState = [
 {
     name:'Завтрак',
     img:'https://img.freepik.com/free-vector/breakfast-food-concept-illustration_114360-12324.jpg?t=st=1731612280~exp=1731615880~hmac=49f9b527672ef4003a97738684ebe47a686a3da8b0322f3cae1b4c2707d8e0ee&w=740',
-    to:'',
     text:'Завтрак — это важный прием пищи, который помогает зарядить вас энергией на весь день. Попробуйте наши рецепты и начните утро с улыбкой!',
     to:'/breakfast',
 },
 {
     name:'Обед',
     img:'https://img.freepik.com/free-vector/different-foods-set-white-background_1308-104236.jpg?t=st=1731612371~exp=1731615971~hmac=e8b5fac215c626727822d275cf8a267b013c97e769c12b43f1831613622c0a8f&w=1060',
-    to:'',
+    to:'/dinner',
     text:'Обед — это важный прием пищи, который помогает поддерживать уровень энергии и концентрации. Попробуйте наши рецепты и насладитесь вкусом! '
 },
 {

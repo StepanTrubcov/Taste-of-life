@@ -12,7 +12,8 @@ const initialState = [
         id:2,
         name: 'Советы по питанию',
         img:'https://img.freepik.com/premium-vector/woman-choosing-healthy-junk-food-illustration_188398-485.jpg?w=1380',
-        text:'Узнайте полезные советы и рекомендации по здоровому питанию от экспертов. Изучите важность сбалансированного рациона, порции и выбор полезных продуктов для улучшения вашего здоровья.'
+        text:'Узнайте полезные советы и рекомендации по здоровому питанию от экспертов. Изучите важность сбалансированного рациона, порции и выбор полезных продуктов для улучшения вашего здоровья.',
+        to:'/advice',
     }, 
     {
         id:3,
@@ -28,12 +29,6 @@ const initialState = [
         text:'Используйте этот калькулятор как часть вашего здорового образа жизни!',
         to:'/calculator'
     },
-    // {
-    //     id:5,
-    //     name: 'Контакты',
-    //     img:'https://img.freepik.com/premium-vector/customer-support-services-woman-with-headphones-microphone-sits-laptop_313437-558.jpg?w=1380',
-    //     text:' Если у вас есть вопросы, предложения или вы хотите поделиться своими впечатлениями о нашем сайте, не стесняйтесь обращаться к нам.'
-    // }
 ]
 
 const HomeReducer = (state = initialState, action) => {

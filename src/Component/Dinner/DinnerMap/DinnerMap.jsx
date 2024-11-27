@@ -1,9 +1,8 @@
 import React, { useState,useEffect } from "react";
-import { NavLink } from "react-router-dom";
 import c from './DinnerMap.module.css'
 
 const DinnerMap = (props) => {
- return <div className={c.NavLink} onClick={() => {}} >
+ return <div className={c.NavLink} onClick={() => {props.func(props.id)}} >
             <div className={c.blok}>
                 <img className={c.img} src={props.img} ></img>
                 <div className={c.name} >{props.name}</div>

@@ -11,6 +11,7 @@ import Video from './Component/Video/VideoConteiner';
 import Recipes from './Component/Recipes/RecipesConteiner'
 import Breakfast from './Component/Breakfast/BreakfastConteiner';
 import DinnerConteiner from './Component/Dinner/DinnerConteiner';
+import Advice from './Component/Advice/Advice';
 
   const App = (props) => {  
     return (
@@ -25,6 +26,7 @@ import DinnerConteiner from './Component/Dinner/DinnerConteiner';
           <Route path='/recipes/' element={<Recipes/>} />
           <Route path='/breakfast/' element={<Breakfast/>} />
           <Route path='/dinner/' element={<DinnerConteiner/>} />
+          <Route path='/advice/' element={<Advice/>} />
           </Routes>
         </div>
         <Information/>

@@ -3,20 +3,20 @@ import c from './Dinner.module.css'
 import Navbar from "../Navbar/NavbarConteiner";
 import DinnerMap from "./DinnerMap/DinnerMap";
 import End from "../End/End";
-import BreakfastRecipe from "../BreakfastRecipe/BreakfastRecipe";
+import DinnerRecipe from "../DinnerRecipe/DinnerRecipe";
 
 const Dinner = (props) => {
-//     const [rr, rrf] = useState(false)
-//     const [rr0, rrf0] = useState(0)
+    const [rr, rrf] = useState(false)
+    const [rr0, rrf0] = useState(0)
 
-//     const functio = (props) => {
-//             rrf(true) 
-//             rrf0(props)
-// }
-//func={functio}
-//     if (rr == true) {
-//         return <div> <BreakfastRecipe name={props.breakfast[rr0].name} img={props.breakfast[rr0].img} inf={props.breakfast[rr0].inf} /></div>
-//     }
+    const functio = (props) => {
+            rrf(true) 
+            rrf0(props)
+}
+
+    if (rr == true) {
+        return <div> <DinnerRecipe ingridients={props.dinner[rr0].ingridients} name={props.dinner[rr0].name} img={props.dinner[rr0].img} inf={props.dinner[rr0].inf} /></div>
+    }
 
     return <div className={c.home}>
         <div className={c.dinner} >Обеды</div>
@@ -28,7 +28,7 @@ const Dinner = (props) => {
         <div className={c.blocks} >
             {
                 props.dinner.map((b) => (
-                    <DinnerMap name={b.name} img={b.img} text={b.text} id={b.id} time={b.time} />
+                    <DinnerMap func={functio} name={b.name} img={b.img} text={b.text} id={b.id} time={b.time} />
                 ))
             }
         </div>

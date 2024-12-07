@@ -9,7 +9,7 @@ const Home = (props) => {
         <div className={c.home} >Главная</div>
         <div className={c.div}>
             {props.home.map(h =>(
-                <Border name={h.name} img={h.img} text={h.text} to={h.to}/>
+                <Border name={h.name} img={h.img} text={h.text} to={h.to} style={h.style} />
             ))}
         </div>
         <div className={c.blok} >

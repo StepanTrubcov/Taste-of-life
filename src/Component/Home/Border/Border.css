@@ -1,0 +1,265 @@
+.navLink{
+    text-decoration: none;
+    }
+
+.div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.recipes{
+    color: rgb(0, 0, 0);
+    background-image: url('https://thumbs.dreamstime.com/b/italian-food-ingredients-background-fresh-vegetables-pa-pasta-cheese-parmesan-spices-top-view-view-above-copy-83593596.jpg');
+    border: 2px solid black;
+    max-width: 550px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.adviсe{
+    color:rgb(0, 0, 0);
+    background-image: url('https://avatars.mds.yandex.net/i?id=a57ea38f2114b45f5f3fe6c4d41f3d74_l-5492373-images-thumbs&n=13');
+    border: 2px solid black;
+    max-width: 550px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.tutorials {
+    color:rgb(255, 255, 255);
+    background-image: url('https://s1.1zoom.me/prev/602/Zucchini_Broccoli_Carrots_Apples_Bell_pepper_601996_600x400.jpg');
+    border: 2px solid black;
+    max-width: 550px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .calculatorr {
+    color:rgb(255, 255, 255);
+    background-image: url('https://sun9-86.userapi.com/impg/2ELP-waRU44HTUN_Fj21V3n0BLq7uT-Bv_Oayw/3y5v-tBZ19Y.jpg?size=604x324&quality=95&sign=842ecd8a4b39c3bc940783ac68b9d1de&type=album');
+    border: 2px solid black;
+    max-width: 550px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+  }
+
+.blok:hover{
+    box-shadow: 15px 10px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.name{
+    margin: 10px;
+    display: flex;
+    justify-content:baseline;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.information{
+    display: flex;
+    margin: 18px;
+}
+
+.img{
+    max-width: 36%;
+    min-width:10% ;
+}
+
+.text{
+    font-weight: 800;
+}
+
+@media (width:2000px){
+    .name{
+        font-size: 35px;
+    }
+    .text{
+        font-size: 20px;
+    }
+    .recipes{
+        max-width: 800px;
+        height: 370px;
+        border-radius: 30px;
+        margin: 10px;
+    }
+    .adviсe{
+        max-width: 800px;
+        height: 370px;
+        border-radius: 30px;
+        margin: 10px;
+    }
+    .tutorials{
+        max-width: 800px;
+        height: 370px;
+        border-radius: 30px;
+        margin: 10px;
+    }
+    .calculatorr{
+        max-width: 800px;
+        height: 370px;
+        border-radius: 30px;
+        margin: 10px;
+    }
+  }
+
+  @media (max-width:1240px){
+    .text{
+        font-size: 15px;
+    }
+    .recipes{
+        max-width: 500px;
+        height: 300px;
+        border-radius: 30px;
+    }
+    .adviсe{
+        max-width: 500px;
+        height: 300px;
+        border-radius: 30px;
+    }
+    .tutorials{
+        max-width: 500px;
+        height: 300px;
+        border-radius: 30px;
+    }
+    .calculatorr{
+        max-width: 500px;
+        height: 300px;
+        border-radius: 30px;
+    }
+  }
+
+  @media (max-width:1140px){
+    .text{
+        font-size: 15px;
+    }
+    .recipes{
+        width: 400px;
+        height: 300px;
+        border-radius: 30px;
+    }
+    .adviсe{
+        width: 400px;
+        height: 300px;
+        border-radius: 30px;
+    }
+    .tutorials{
+        width: 400px;
+        height: 300px;
+        border-radius: 30px;
+    }
+    .calculatorr{
+        width: 400px;
+        height: 300px;
+        border-radius: 30px;
+    }
+  }
+
+  @media (max-width:901px){
+    .text{
+        font-size: 17px;
+    }
+    .recipes{
+        max-width: 600px;
+        height: 320px;
+        border-radius: 30px;
+    }
+    .adviсe{
+        max-width: 600px;
+        height: 320px;
+        border-radius: 30px;
+    }
+    .tutorials{
+        max-width: 600px;
+        height: 320px;
+        border-radius: 30px;
+    }
+    .calculatorr{
+        max-width: 600px;
+        height: 320px;
+        border-radius: 30px;
+    }
+  }
+
+
+@media (max-width:625px){
+    .text{
+        font-size: 18px;
+    }
+    .recipes{
+        max-width: 540px;
+    }
+    .adviсe{
+        max-width: 540px;
+    }
+    .tutorials{
+        max-width: 540px;
+    }
+    .calculatorr{
+        max-width: 540px;
+    }
+  }
+
+  @media (max-width:567px){
+    .name{
+        font-size: 25px;
+    }
+    .text{
+        font-size: 13px;
+    }
+    .recipes{
+        height: 230px;
+    }
+    .adviсe{
+        height: 230px;
+    }
+    .tutorials{
+        height: 230px;
+    }
+    .calculatorr{
+        height: 230px;
+    }
+  }
+
+  @media (max-width:467px){
+    .name{
+        font-size: 25px;
+    }
+    .text{
+        font-size: 15px;
+    }
+    .recipes{
+        max-width: 300px;
+        height: 260px;
+        border-radius: 30px;
+        margin: 10px;
+    }
+    .adviсe{
+        max-width: 300px;
+        height: 260px;
+        border-radius: 30px;
+        margin: 10px;
+    }
+    .tutorials{
+        max-width: 300px;
+        height: 260px;
+        border-radius: 30px;
+        margin: 10px;
+    }
+    .calculatorr{
+        max-width: 300px;
+        height: 260px;
+        border-radius: 30px;
+        margin: 10px;
+    }
+  }
+
+  

@@ -1,18 +1,17 @@
+import './Border.css'
 import React from "react"
-import c from './Border.module.css'
 import { NavLink } from "react-router-dom";
 
 const Border = (props) => {
-    return <NavLink className={c.NavLink} to={props.to} >
-    <div className={c.blok} >
+    return <NavLink className="navLink" to={props.to} >
+    <div className={props.style} >
         <div>
-           <p className={c.name} >{props.name}</p>
+           <p className="name" >{props.name}</p>
         </div>
-        <div className={c.information} >
-            <p className={c.text} >{props.text}</p>
-            <img className={c.img} src={props.img} ></img>
+        <div className="information" >
+            <p className="text" >{props.text}</p>
         </div>
-        <p className={c.number} >{props.id}</p>
+        <p className="number" >{props.id}</p>
     </div>
     </NavLink>
 }
